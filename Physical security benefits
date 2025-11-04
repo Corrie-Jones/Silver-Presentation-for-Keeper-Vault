@@ -1,0 +1,228 @@
+🛡️ Physical Security
+
+Core Pillar ⚙️ Mission
+
+If someone can walk through your door, none of it matters.
+
+KeeperVault’s Physical Security locks down the real-world perimeter.
+We use your existing locks, doors, windows, fences, vehicles, and buildings — and map them into a working command structure that prevents, monitors, and responds to breaches in real time.
+
+Whether it's a swinging gate or a biometric scanner, a padlock or a push bar, we chart it, track it, and seal it.
+
+🧱 STRUCTURAL HARDENING – Using What You Already Own
+
+1. Doors
+
+We record every door’s type and locking mechanism:
+
+Manual deadbolt, auto-lock, maglock, keypad, RFID, timed entry, etc.
+
+KeeperVault designates:
+
+🟣 Standard Entry Doors
+
+🔴 Restricted Access Points
+
+🔵 Emergency Escape Routes
+
+Lockdown Capabilities:
+
+If electronically controlled: can be sealed instantly from Command.
+
+If manual: triggers a lockdown protocol that notifies assigned personnel to lock and verify.
+
+Every lock is classified:
+
+“Keyed Lock,” “Turn Lock,” “Remote Lock,” “No Lock,” or “Multi-Lock”
+
+2. Windows
+
+KeeperVault performs a full window audit:
+
+Do they open? Do they lock? What kind of latch?
+
+Physical vulnerabilities: old frames, damaged screens, shattered panes.
+
+Optional status fields:
+
+“Permanently Sealed,” “Operable,” “Break Risk,” “Escape-Only”
+
+Can be tied to intrusion sensors if present — otherwise we create a manual inspection schedule.
+
+3. Gates, Perimeter Fencing, Yard Access
+
+Mapped per sector: front, rear, side, alley, loading dock, etc.
+
+Each gate/fence classified:
+
+“Openable,” “Secured,” “Camera-Covered,” “Obstructed”
+
+KeeperVault will:
+
+Assign gate duty (if needed)
+
+Build a check-in/check-out log for physical gate opens
+
+Sync with camera if you’ve got one (but not required)
+
+🗝️ ACCESS CONTROL + LOCK MANAGEMENT
+
+4. Key & Lock Tracking
+
+KeeperVault creates a Key Log:
+
+Each key is numbered and assigned (no matter how basic).
+
+Duplicate keys tracked.
+
+Lost keys trigger a flag + optional lock reassignments.
+
+Can track master key holders, access chains, and lend-outs.
+
+5. Physical Badge or ID Use (Manual or RFID)
+
+If RFID: we’ll track entry logs by tag.
+
+If Manual: KeeperVault builds a Visual Entry Register:
+
+Time entered
+
+By whom
+
+For what purpose
+
+Witness (if applicable)
+
+Staff who bypass check-in get auto-flagged
+
+🚨 INCIDENT RESPONSE & LOCKDOWN PROTOCOLS
+
+6. Shooter / Threat Containment
+
+Instant lockdown protocol:
+
+If you have auto-lock doors: sealed remotely.
+
+If not: alerts are pushed to designated staff to physically lock each assigned zone.
+
+Staff check-ins confirm zones are sealed.
+
+Map of facility displays:
+
+🔐 Sealed
+
+🟡 Pending
+
+🔴 Breached
+
+7. Break-In / After-Hours Alerting
+
+KeeperVault maps:
+
+After-hours access rules
+
+Who is allowed and when
+
+What motion (door, window, hallway) is considered a trigger
+
+Even without cameras:
+
+If someone enters and no schedule exists → red flag.
+
+Daily log will show who was inside, when, and why.
+
+🧰 TOOL + EQUIPMENT ROOM PROTECTION
+
+8. Physical Inventory Room Control
+
+Rooms like:
+
+Supply closets
+
+Tool sheds
+
+Server cages
+
+Equipment lockers
+
+Each one is treated as a vault:
+
+Entry is logged (digital or manual)
+
+Items removed must match Inventory Access Logs
+
+If a person enters without logging out a tool → they’re flagged
+
+9. Vehicle Gate Protocol
+
+If you have a gate (sliding, swinging, chain-link), KeeperVault will:
+
+Assign open/close responsibility by shift
+
+Log time of opening
+
+Check that it was re-sealed
+
+Alert if left open past threshold time
+
+👥 PERSONNEL SAFETY + VISITOR OVERSIGHT
+
+10. Visitor Protocols
+
+KeeperVault logs:
+
+Who entered
+
+Who escorted them
+
+What zone(s) they accessed
+
+Time in / time out
+
+If no escort is logged, system alerts primary admin.
+
+11. Employee Exit Scans
+
+At the end of shift:
+
+KeeperVault checks that employees exited zones they were assigned to.
+
+Optional: checklist prompt (lights off, tools returned, doors locked)
+
+💾 OFFLINE MODE + MANUAL BACKUP
+
+12. Fortress Mode (No Internet, No Power)
+
+KeeperVault immediately:
+
+Locks down protocol schedules
+
+Switches to printed logs (for clipboards)
+
+Activates LED signals (if installed)
+
+Alerts via local dashboard (offline alert board or printed checklist)
+
+
+Every action is logged and time-stamped — even offline.
+
+🧭 Visual Summary:
+
+Asset	Classification	Lock Type	Check Protocol
+
+North Door	Staff Entry	RFID + Turn	Auto-seal at 7pm
+Server Room	Restricted	Padlock	Escort Required
+West Window	Openable	Slide Latch	Weekly Inspection
+Front Gate	Manual	Chain Lock	Shift Log – Gatekeeper
+Toolshed	Vault Zone	Deadbolt	Tool Log Integration
+
+🧠 Keeper’s Promise:
+
+No cloud? No upgrades? No problem.
+KeeperVault secures your perimeter with what you already have — no excuses, no dependencies.
+
+You’ll know where every door leads.
+You’ll know who touched every key.
+And you’ll sleep knowing the real world is locked down tight.
+
+
