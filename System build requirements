@@ -1,0 +1,25 @@
+**KeeperVault – System Build Requirements**  
+
+Every KeeperVault deployment must meet baseline physical and power safeguards before activation. These requirements ensure your system stays operational and protected no matter what’s happening outside — whether online, offline, or when the grid itself is dark.  
+
+
+
+**1 | Biometric Access – Required**  
+All entry points to the KeeperVault environment — physical or digital — must include biometric verification.  
+
+- If you already use biometric systems at your points of entry, you may continue using them as long as they will adapt to the Vault.  
+- If not, KeeperVault USB fingerprint scanners are available. There must be one biometric device at *every* point of entry.  
+- Clients who choose KeeperVault-provided scanners must supply an accurate count (which must match their system access map). The cost will be billed into their build.  
+
+
+
+**2 | Backup Power – Required**  
+Every KeeperVault build must have backup power of some kind — whether it’s generator, battery, solar, or wind-based. The length and type of backup is up to you.  
+
+However, **we strongly recommend at least a 21-day power supply**.  
+
+Because whether it’s an act of God — a tornado, hurricane, earthquake, flood, or any natural disaster that takes out everything around you — your system still needs to stay alive.  
+
+As long as you can provide power — even from a Humvee battery — KeeperVault will continue to protect and defend your system until the grid comes back online.  
+
+Just because your section loses power doesn’t mean hackers stop trying to get in. Your Vault will stay awake and on guard until full service returns.
