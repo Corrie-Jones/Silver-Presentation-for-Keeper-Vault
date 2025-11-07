@@ -1,0 +1,27 @@
+ABOUT THE KEYS — BUILT-TO-SPEC, MARRIED FOR LIFE
+
+Each KeeperVault Key is a purpose-built, hardened device engineered for a single deployment. Keys are not generic dongles — they are precision-made, serialized, and cryptographically paired to the exact asset they protect. Once a Key is assigned, it is permanently married to that unit for life (non-swappable). This is intentional — it prevents tampering, spoofing, and unauthorized cloning.
+
+What makes a KeeperVault Key:
+- Built-to-spec for each asset: model number, serial, firmware, and environment are recorded at manufacture.
+- Ruggedized & hardened: EMP/EMI shielding, vibration-rated build, weatherproof housings, and tamper-evident seals available per deployment needs.
+- Unique cryptographic pairing: each Key is cryptographically bound to its target device and to the client’s Vault instance.
+- **Auto-wipe safeguard:** if a Key is removed from its assigned system for longer than a short, preset interval, its internal data self-wipes automatically. This prevents unauthorized duplication, tampering, or data exposure — even if the Key is stolen or misplaced.
+- Lifecycle control: lost or destroyed Keys are replaced by a new forged Key (reprovisioning and security re-validation required) — Keys are never cloned or reissued.
+- Tiered internal designs: standard Keys for in-facility systems and hardened Keys for external or mobile assets (drones, aircraft, ships, subs, vehicles, satellites, and remote units).
+- Key classification and build level are determined solely by the KeeperVault engineering team, based on deployment requirements. Clients do **not** choose their own Key tier or configuration.
+- Secure provisioning: each Key is provisioned under controlled conditions and logged into the client’s Vault with full audit trails.
+
+Billing & Ordering
+- Keys are billed separately from the Vault build. Each Key is a custom unit and priced according to specification (ruggedization level, EMP shielding, tamper features, cryptographic hardware module, and environmental rating).
+- Each Key is married to a specific device and cannot be shared or repurposed.
+- Replacement Keys, upgrades, or additional provisioning are handled as separate orders and require full security re-validation before activation.
+
+Why this matters
+- The “married for life” model guarantees every deployed asset has an unforgeable identity and verifiable chain of custody.
+- It prevents an attacker from swapping or spoofing a device — only the assigned Key will authenticate.
+- The automatic self-wipe ensures no Key can be reverse-engineered or compromised if removed from its rightful host.
+- It maintains the highest level of continuity, integrity, and security without weakening the Vault’s moral or technical guarantees.
+
+To request Keys or receive a quote, contact Daisy at: daisy.thekeepervault@gmail.com  
+(Please include asset list: model, serial, deployment environment, and intended function.)
