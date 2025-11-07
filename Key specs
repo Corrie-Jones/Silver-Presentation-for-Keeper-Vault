@@ -1,0 +1,67 @@
+KEEPERVAULT MILITARY-GRADE KEY — TECHNICAL SPECIFICATION (REFERENCE)
+
+Overview
+--------
+Type: Rugged cryptographic hardware key (USB-C primary; optional legacy USB-A adapter for backward compatibility)
+Primary use: Secure deployment and attestation device for KeeperVault builds, carrying the core encryption, authentication, and continuity protocols required for simultaneous online/offline operation.
+
+Hardware
+--------
+- Form factor: Rugged USB-C device (approx. 80 × 24 × 12 mm) with reinforced housing and tether loop.
+- Weight: ~65–90 g depending on enclosure.
+- Housing: Aircraft-grade aluminum or stainless steel outer shell with internal EMP-shielded Faraday cavity and anti-tamper epoxy.
+- Connector: USB-C (reversible, MIL-grade mechanical spec). Optional USB-A adapter for legacy systems if required.
+- Environmental rating: IP68 — dust-tight and immersion-rated (up to 1.5 m for 30 min).
+- Operating temperature: −40 °C to +85 °C.
+- Shock & vibration: Built to MIL-STD-810H profiles (shock, vibration, temperature cycling).
+- EMI/EMC: Designed to MIL-STD-461 limits for electromagnetic immunity.
+- EMP protection: Multi-layer Faraday shielding and transient suppression on I/O lines (resists high-altitude EMP and surge events).
+
+Security (crypto & certification targets)
+-----------------------------------------
+- Secure Element: Hardware security module (HSM/SE) — keys generated and stored internally, never exportable.  
+- FIPS 140-3 (Level 3) and Common Criteria EAL4+ certification targets.
+- Algorithms:
+   • AES-256-GCM for encryption  
+   • ECC P-384 (NIST P-384) or RSA-4096 for signatures  
+   • SHA-256/384 for integrity  
+   • HKDF/PBKDF2 for key derivation
+- Key management: On-device non-extractable root; per-deployment derived keys; signed attestation certificates (X.509).
+- Authentication: PIN + optional biometric token handshake; progressive lockout after repeated failures.
+- Secure boot & firmware: Digitally signed firmware; locked bootloader; only KeeperVault-signed updates accepted.
+- Auto-update policy: **No automatic updates** except the Neighborhood Watch security patch system.
+
+Tamper & physical security
+--------------------------
+- Conductive mesh and epoxy potting for critical circuits.
+- Microswitch detection for physical tampering → automatic key wipe.
+- Anti-probe coatings and obfuscated internal layout.
+- Encrypted storage for manifests and signed logs (immutable audit chain).
+
+Performance & capacities
+------------------------
+- Encrypted storage: 8 – 32 MB for manifests, keys, and logs.
+- AES-256 hardware acceleration; ECC P-384 sign/verify < 20 ms typical.
+- Signed rolling log of up to 10 000 events.
+
+Interfaces & integration
+------------------------
+- Host support: PKCS#11 / PIV / CTAP2 / KeeperVault CLI integration shim.
+- **Simultaneous online and offline operation:**  
+  The Key functions in both lanes at once, maintaining encrypted continuity without transferring private key material externally.
+- When connected to authorized systems, it can verify authenticity, deliver signed manifests, and receive approved Neighborhood Watch security patches — all within KeeperVault’s encrypted dual-lane channel.
+
+Supply chain & lifecycle
+------------------------
+- Provisioned with factory attestation and per-client enrollment through Daisy.
+- Each key carries a serial ID and revocation profile; lost or compromised keys are invalidated via Neighborhood Watch.
+- Decommissioning: full cryptographic wipe and physical destruction.
+
+Policy summary
+--------------
+The KeeperVault Key is a hardened device designed to enforce local sovereignty over your build.  
+It never leaks data, never yields to remote control, and operates online and offline simultaneously — exactly as KeeperVault was meant to.  
+
+It protects what you built, defends what you own, and stands watch even when the grid goes dark.
+
+— KeeperVault | Silver Edition Specification
